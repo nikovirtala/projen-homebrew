@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       projen:
-        specifier: ^0.98.25
-        version: 0.98.25(constructs@10.4.3)
+        specifier: ^0.98.26
+        version: 0.98.26(constructs@10.4.3)
     devDependencies:
       '@biomejs/biome':
         specifier: ^2
         version: 2.3.7
       '@nikovirtala/projen-vitest':
-        specifier: ^2.1.15
-        version: 2.1.15(constructs@10.4.3)(projen@0.98.25(constructs@10.4.3))
+        specifier: ^2.1.16
+        version: 2.1.16(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))
       '@types/node':
         specifier: ^22
         version: 22.19.1
@@ -359,12 +359,12 @@ packages:
     resolution: {integrity: sha512-BurJOykpQNhqR80h6/RXX5i8rEO574KUP5BfiKApe+RAsEevCdfF7+Ev5ekrUgMfxxfvaQZyNEY640hXPQgq1w==}
     engines: {node: '>= 14.17.0'}
 
-  '@nikovirtala/projen-vitest@2.1.15':
-    resolution: {integrity: sha512-KPJVSV6QBcL7ZYDBfXDJT+xFWmzPs4FBVQVN7vXdN4YXVsWRoH0FoN2tUFD5diEts2Q7/YD2gMK9SWOO2CT0FQ==}
+  '@nikovirtala/projen-vitest@2.1.16':
+    resolution: {integrity: sha512-DM740n1/Tikg9Y1kXxc74NuVCYOVUZ8e9Swj3YPUaIQUGeUwSI0KMLNYi3aPIHvCly0PA3LBqWZ3dWUrga0lMw==}
     engines: {node: '>= 22.21.1'}
     peerDependencies:
       constructs: ^10.4.3
-      projen: ^0.98.25
+      projen: ^0.98.26
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -1465,8 +1465,8 @@ packages:
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
 
-  projen@0.98.25:
-    resolution: {integrity: sha512-LWcraC/QZ1vgVQ5WrySOtevz9BNmTxKf7iey/UkGKYUBZlhQk4mojWQHHlIpaSmLZ12ZUwGnPdjXjd7jv1TYIw==}
+  projen@0.98.26:
+    resolution: {integrity: sha512-M92WwmFwr134VpFDVwGDdpB/pcTDKs7lwbgD5fYQn/F/T4QOSaFcCbHmp/nhw0oendGb8a9p9m/zIbalVbim4w==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -2158,10 +2158,10 @@ snapshots:
     dependencies:
       ajv: 8.17.1
 
-  '@nikovirtala/projen-vitest@2.1.15(constructs@10.4.3)(projen@0.98.25(constructs@10.4.3))':
+  '@nikovirtala/projen-vitest@2.1.16(constructs@10.4.3)(projen@0.98.26(constructs@10.4.3))':
     dependencies:
       constructs: 10.4.3
-      projen: 0.98.25(constructs@10.4.3)
+      projen: 0.98.26(constructs@10.4.3)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -3310,7 +3310,7 @@ snapshots:
 
   process-nextick-args@2.0.1: {}
 
-  projen@0.98.25(constructs@10.4.3):
+  projen@0.98.26(constructs@10.4.3):
     dependencies:
       constructs: 10.4.3
 
