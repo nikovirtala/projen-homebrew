@@ -38,13 +38,13 @@ importers:
         version: 1.122.0
       jsii-docgen:
         specifier: ^10.5.0
-        version: 10.11.9(jsii-rosetta@5.9.23)
+        version: 10.11.9(jsii-rosetta@5.9.24)
       jsii-pacmak:
         specifier: ^1.122.0
-        version: 1.122.0(jsii-rosetta@5.9.23)
+        version: 1.122.0(jsii-rosetta@5.9.24)
       jsii-rosetta:
         specifier: ~5.9.3
-        version: 5.9.23
+        version: 5.9.24
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.19.3)(typescript@5.9.3)
@@ -1207,8 +1207,8 @@ packages:
     engines: {node: '>= 14.17.0'}
     hasBin: true
 
-  jsii-rosetta@5.9.23:
-    resolution: {integrity: sha512-gmhf0icQsi6AePSMEXyi1qcxNF84fvJPz0GdsjzezBHU89gLcuz186jVJv+s1QUPNQ/G3tJ5aQxbgJ9ZTqtvFg==}
+  jsii-rosetta@5.9.24:
+    resolution: {integrity: sha512-dvaTanQ+KQvMQ/rvV7pg3TkQsBz9hqntbAXMA2DNQFtL/2KV1emq1LAUEuTdV/r3uoYt+9dYjE0Qco1+xdVbiw==}
     engines: {node: '>= 18.12.0'}
     hasBin: true
 
@@ -1877,6 +1877,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -3036,19 +3037,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsii-docgen@10.11.9(jsii-rosetta@5.9.23):
+  jsii-docgen@10.11.9(jsii-rosetta@5.9.24):
     dependencies:
       '@jsii/spec': 1.122.0
       case: 1.6.3
       fast-glob: 3.3.3
       fs-extra: 10.1.0
       jsii-reflect: 1.122.0
-      jsii-rosetta: 5.9.23
+      jsii-rosetta: 5.9.24
       json-stream-stringify: 3.1.6
       semver: 7.7.3
       yargs: 16.2.0
 
-  jsii-pacmak@1.122.0(jsii-rosetta@5.9.23):
+  jsii-pacmak@1.122.0(jsii-rosetta@5.9.24):
     dependencies:
       '@jsii/check-node': 1.122.0
       '@jsii/spec': 1.122.0
@@ -3058,7 +3059,7 @@ snapshots:
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
       jsii-reflect: 1.122.0
-      jsii-rosetta: 5.9.23
+      jsii-rosetta: 5.9.24
       semver: 7.7.3
       spdx-license-list: 6.10.0
       xmlbuilder: 15.1.1
@@ -3073,7 +3074,7 @@ snapshots:
       oo-ascii-tree: 1.122.0
       yargs: 17.7.2
 
-  jsii-rosetta@5.9.23:
+  jsii-rosetta@5.9.24:
     dependencies:
       '@jsii/check-node': 1.122.0
       '@jsii/spec': 1.122.0
