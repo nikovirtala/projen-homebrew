@@ -38,13 +38,13 @@ importers:
         version: 1.127.0
       jsii-docgen:
         specifier: ^10.5.0
-        version: 10.11.14(jsii-rosetta@5.9.34)
+        version: 10.11.14(jsii-rosetta@5.9.35)
       jsii-pacmak:
         specifier: ^1.127.0
-        version: 1.127.0(jsii-rosetta@5.9.34)
+        version: 1.127.0(jsii-rosetta@5.9.35)
       jsii-rosetta:
         specifier: ~5.9.3
-        version: 5.9.34
+        version: 5.9.35
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.19.15)(typescript@5.9.3)
@@ -1206,8 +1206,8 @@ packages:
     engines: {node: '>= 14.17.0'}
     hasBin: true
 
-  jsii-rosetta@5.9.34:
-    resolution: {integrity: sha512-enlh+DitCe8IsjuhUBMhVfeW4PrRYQJKgfWAm1vkEmJbi39+ZWOj9RGXok9snhkY3ivf28uj9zkS3tKntI6GfA==}
+  jsii-rosetta@5.9.35:
+    resolution: {integrity: sha512-70VITVYYMBTqjKdi/W/pJsZPxYpR5AdCyeWCFK3VYYUmUinMLmOkD+8jgHdj7NaLolVxAyrCXvGiHmvXVHlkYw==}
     engines: {node: '>= 20.16.0'}
     hasBin: true
 
@@ -2998,19 +2998,19 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsii-docgen@10.11.14(jsii-rosetta@5.9.34):
+  jsii-docgen@10.11.14(jsii-rosetta@5.9.35):
     dependencies:
       '@jsii/spec': 1.127.0
       case: 1.6.3
       fast-glob: 3.3.3
       fs-extra: 10.1.0
       jsii-reflect: 1.127.0
-      jsii-rosetta: 5.9.34
+      jsii-rosetta: 5.9.35
       json-stream-stringify: 3.1.6
       semver: 7.7.4
       yargs: 16.2.0
 
-  jsii-pacmak@1.127.0(jsii-rosetta@5.9.34):
+  jsii-pacmak@1.127.0(jsii-rosetta@5.9.35):
     dependencies:
       '@jsii/check-node': 1.127.0
       '@jsii/spec': 1.127.0
@@ -3020,7 +3020,7 @@ snapshots:
       escape-string-regexp: 4.0.0
       fs-extra: 10.1.0
       jsii-reflect: 1.127.0
-      jsii-rosetta: 5.9.34
+      jsii-rosetta: 5.9.35
       semver: 7.7.4
       spdx-license-list: 6.11.0
       xmlbuilder: 15.1.1
@@ -3035,7 +3035,7 @@ snapshots:
       oo-ascii-tree: 1.127.0
       yargs: 17.7.2
 
-  jsii-rosetta@5.9.34:
+  jsii-rosetta@5.9.35:
     dependencies:
       '@jsii/check-node': 1.127.0
       '@jsii/spec': 1.127.0
