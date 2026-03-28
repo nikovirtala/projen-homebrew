@@ -9,15 +9,15 @@ importers:
   .:
     dependencies:
       projen:
-        specifier: ^0.99.24
-        version: 0.99.24(constructs@10.6.0)
+        specifier: ^0.99.25
+        version: 0.99.25(constructs@10.6.0)
     devDependencies:
       '@biomejs/biome':
         specifier: ^2
         version: 2.4.9
       '@nikovirtala/projen-vitest':
         specifier: ^2.1.35
-        version: 2.1.35(constructs@10.6.0)(projen@0.99.24(constructs@10.6.0))
+        version: 2.1.35(constructs@10.6.0)(projen@0.99.25(constructs@10.6.0))
       '@types/node':
         specifier: ^22
         version: 22.19.15
@@ -38,7 +38,7 @@ importers:
         version: 1.127.0
       jsii-docgen:
         specifier: ^10.5.0
-        version: 10.11.14(jsii-rosetta@5.9.37)
+        version: 10.11.15(jsii-rosetta@5.9.37)
       jsii-pacmak:
         specifier: ^1.127.0
         version: 1.127.0(jsii-rosetta@5.9.37)
@@ -1211,8 +1211,8 @@ packages:
     engines: {node: '>= 14.17.0'}
     hasBin: true
 
-  jsii-docgen@10.11.14:
-    resolution: {integrity: sha512-i1htUoUpkd31JKIVp78SCaaBf05Sigl1DPYViJMCM/ahVq//OPHRatp/7L9GpeIzaVUanA9H51vNZSIKO9k94g==}
+  jsii-docgen@10.11.15:
+    resolution: {integrity: sha512-vTiExZqFc61HCbk+RwSi/kNicQGj21K1DeUMIBG8NehsnTbzLtGyTQD4jYVB1kYIgoQg7g/8NhMJv/jGFoTkfw==}
     hasBin: true
     peerDependencies:
       jsii-rosetta: ^1.85.0 || ~5.0.14 || ~5.1.2 || ~5.2.0 || ~5.3.0 || ~5.4.0 || ~5.5.0 || ~5.6.0 || ~5.7.0 || ~5.8.0 || ~5.9.1
@@ -1492,8 +1492,8 @@ packages:
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
 
-  projen@0.99.24:
-    resolution: {integrity: sha512-7N8Hm/My1RJSjxuaQcKqyRaLMegSQd/4q2k7qLQqhebL3kAHJNyTB//iLA4utdYH+oqNgJ52xen6ZBH1ZA+DlQ==}
+  projen@0.99.25:
+    resolution: {integrity: sha512-9A9G6pnav5Cb0aJK8fFsvwIhilbxY+8ky5VhshkSRHAi0feEHRqHChzOvKBCCOd2VVVFB3aNLHzkf0rtYaHd6A==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     peerDependencies:
@@ -2182,10 +2182,10 @@ snapshots:
 
   '@jsii/spec@1.127.0': {}
 
-  '@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.99.24(constructs@10.6.0))':
+  '@nikovirtala/projen-vitest@2.1.35(constructs@10.6.0)(projen@0.99.25(constructs@10.6.0))':
     dependencies:
       constructs: 10.6.0
-      projen: 0.99.24(constructs@10.6.0)
+      projen: 0.99.25(constructs@10.6.0)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -3045,7 +3045,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  jsii-docgen@10.11.14(jsii-rosetta@5.9.37):
+  jsii-docgen@10.11.15(jsii-rosetta@5.9.37):
     dependencies:
       '@jsii/spec': 1.127.0
       case: 1.6.3
@@ -3363,7 +3363,7 @@ snapshots:
 
   process-nextick-args@2.0.1: {}
 
-  projen@0.99.24(constructs@10.6.0):
+  projen@0.99.25(constructs@10.6.0):
     dependencies:
       constructs: 10.6.0
 
